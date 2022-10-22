@@ -7,6 +7,7 @@ namespace SOSOTaskPlanningMTest
     {
         Holidays holidays = Holidays.CreateHolidays;
 
+        [TestMethod]
         public void AddHolidaysTest()
         {           
 

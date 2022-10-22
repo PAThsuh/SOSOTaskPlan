@@ -2,9 +2,9 @@
 {
     public class TaskPlan : iTaskPlan
     {
-        private Holidays holidays;
-        private WeekEnds weekEnds;
-        public TaskPlan(Holidays holidays, WeekEnds weekEnds)
+        private iHolidays holidays;
+        private iWeekEnds weekEnds;
+        public TaskPlan(iHolidays holidays, iWeekEnds weekEnds)
         {
             this.holidays = holidays;
             this.weekEnds = weekEnds;

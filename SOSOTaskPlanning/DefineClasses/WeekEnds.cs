@@ -1,6 +1,6 @@
 ﻿namespace SOSOTaskPlanning.DefineClasses
 {
-    public sealed class WeekEnds
+    public sealed class WeekEnds : iWeekEnds 
     {
         private static WeekEnds weekEnds = null;
         public static WeekEnds GetWeekEnds
